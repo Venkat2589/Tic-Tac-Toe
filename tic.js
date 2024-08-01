@@ -25,6 +25,7 @@ boxs.forEach((box)=>{
         if(turnO)
         {
             box.innerText = "O";
+            box.style.color="red";
             turnO = false;
         }
         else{
